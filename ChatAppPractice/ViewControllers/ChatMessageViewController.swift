@@ -12,6 +12,7 @@ import MessageInputBar
 
 class ChatMessageViewController: MessagesViewController {
     
+    //var navBar = UINavigationBar()
     var messageList: [MockMessage] = []
     
     lazy var formatter: DateFormatter = {
@@ -22,7 +23,24 @@ class ChatMessageViewController: MessagesViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+//        view = UIView()
+//        view.backgroundColor = .white
+        
+//        //navItem
+//        let navItem: UINavigationItem = UINavigationItem(title: "Chats")
+//        navItem.leftBarButtonItem = UIBarButtonItem(title: "< BACK", style: .plain, target: self, action: #selector(self.returnView))
+//        navBar.pushItem(navItem, animated: false)
+//
+//        navBar.translatesAutoresizingMaskIntoConstraints = false
+//        view.addConstraints([
+//            navBar.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor),
+//            navBar.widthAnchor.constraint(equalTo: view.widthAnchor),
+//            navBar.heightAnchor.constraint(equalToConstant: 80)
+//            ])
+//
+//        view.addSubview(navBar)
+        
         DispatchQueue.main.async {
         
             //messageListにsampleメッセージ
@@ -58,6 +76,11 @@ class ChatMessageViewController: MessagesViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
+    
+//    @objc func returnView() {
+//        
+//        self.dismiss(animated: true, completion: nil)
+//    }
 }
 
 extension ChatMessageViewController: MessagesDataSource {

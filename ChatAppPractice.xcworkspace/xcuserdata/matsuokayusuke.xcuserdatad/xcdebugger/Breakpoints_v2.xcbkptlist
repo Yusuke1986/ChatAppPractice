@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ChatAppPractice/ViewControllers/ChatTableViewController.swift"
+            timestampString = "577302372.232891"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "ChatTableViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ChatAppPractice.ChatTableViewController.items.getter : Swift.Array&lt;ChatAppPractice.ChatGroup&gt;"
+                  moduleName = "ChatAppPractice"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/matsuokayusuke/develop/github/ChatAppPractice/ChatAppPractice/ViewControllers/ChatTableViewController.swift"
+                  timestampString = "577295044.992337"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "114">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ChatAppPractice.ChatTableViewController.items.setter : Swift.Array&lt;ChatAppPractice.ChatGroup&gt;"
+                  moduleName = "ChatAppPractice"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/matsuokayusuke/develop/github/ChatAppPractice/ChatAppPractice/ViewControllers/ChatTableViewController.swift"
+                  timestampString = "577295044.9952"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "128">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ChatAppPractice.ChatTableViewController.items.modify : Swift.Array&lt;ChatAppPractice.ChatGroup&gt;"
+                  moduleName = "ChatAppPractice"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/matsuokayusuke/develop/github/ChatAppPractice/ChatAppPractice/ViewControllers/ChatTableViewController.swift"
+                  timestampString = "577295044.998189"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "18">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ChatAppPractice.ChatTableViewController.items.modify : Swift.Array&lt;ChatAppPractice.ChatGroup&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "ChatAppPractice"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/matsuokayusuke/develop/github/ChatAppPractice/ChatAppPractice/ViewControllers/ChatTableViewController.swift"
+                  timestampString = "577295045.0011179"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ChatAppPractice.ChatTableViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; ChatAppPractice.ChatTableViewController"
+                  moduleName = "ChatAppPractice"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/matsuokayusuke/develop/github/ChatAppPractice/ChatAppPractice/ViewControllers/ChatTableViewController.swift"
+                  timestampString = "577295045.004197"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "524">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ChatAppPractice.ChatTableViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;ChatAppPractice.ChatTableViewController&gt;"
+                  moduleName = "ChatAppPractice"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/matsuokayusuke/develop/github/ChatAppPractice/ChatAppPractice/ViewControllers/ChatTableViewController.swift"
+                  timestampString = "577295045.007001"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "449">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ChatAppPractice/ViewControllers/ChatTableViewController.swift"
+            timestampString = "577302372.232964"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "144"
+            endingLineNumber = "144"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

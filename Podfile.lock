@@ -1,29 +1,47 @@
 PODS:
+  - Alamofire (4.8.2)
   - MessageInputBar/Core (0.4.1)
   - MessageKit (2.0.0):
     - MessageInputBar/Core
+  - Moya (13.0.0):
+    - Moya/Core (= 13.0.0)
+  - Moya/Core (13.0.0):
+    - Alamofire (~> 4.1)
+    - Result (~> 4.1)
+  - Moya/RxSwift (13.0.0):
+    - Moya/Core
+    - RxSwift (~> 4.0)
+  - Result (4.1.0)
   - RxCocoa (4.5.0):
     - RxSwift (>= 4.4.2, ~> 4.4)
   - RxSwift (4.5.0)
 
 DEPENDENCIES:
   - MessageKit
+  - Moya
+  - Moya/RxSwift
   - RxCocoa
   - RxSwift
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - Alamofire
     - MessageInputBar
     - MessageKit
+    - Moya
+    - Result
     - RxCocoa
     - RxSwift
 
 SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
   MessageInputBar: e81c7535347f1f7b923de7080409a535a004b6e4
   MessageKit: 29c1c87e5a396d2ca7a3f712e5171dc9aba42a1e
+  Moya: 161263550064ff8a4948e8ff63137fd72a876292
+  Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
   RxCocoa: cbf70265dc65a981d4ac982e513c10cf23df24a0
   RxSwift: f172070dfd1a93d70a9ab97a5a01166206e1c575
 
-PODFILE CHECKSUM: c300b085f61f6c9d61151510357a233ae0f6e692
+PODFILE CHECKSUM: 0f937e756b175423560c1c324401736d9156b543
 
 COCOAPODS: 1.6.1

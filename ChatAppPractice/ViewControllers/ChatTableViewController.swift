@@ -8,7 +8,7 @@
 
 import UIKit
 
-class chatGroup {
+class ChatGroup {
     var groupId: String
     var groupName: String
     var index: Int
@@ -19,7 +19,7 @@ class chatGroup {
         self.index = 0
     }
     
-    init(title: String) {
+    init(groupName: String) {
         self.groupId = ""
         self.groupName = ""
         self.index = 0
@@ -32,11 +32,23 @@ class ChatTableViewController: UIViewController,UISearchBarDelegate, UITableView
     var searchBar = UISearchBar()
     var tableView: UITableView?
     
-    var items:[chatGroup] = []
+    var items:[ChatGroup] = []
+    
+    let public1 = ChatGroup()
+    let public2 = ChatGroup()
+    let public3 = ChatGroup()
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        public1.groupName = "public 1"
+        public2.groupName = "public 2"
+        public3.groupName = "public 3"
+        items.append(public1)
+        items.append(public2)
+        items.append(public3)
+
+        
         view = UIView()
         view.backgroundColor = .white
         
@@ -59,6 +71,10 @@ class ChatTableViewController: UIViewController,UISearchBarDelegate, UITableView
             ]
             tableView.delegate = self
             tableView.dataSource = self
+            
+            //tableView.separatorStyle = .singleLine
+            self.tableView?.estimatedRowHeight = 90
+            self.tableView?.rowHeight = UITableView.automaticDimension
             
             self.view.addSubview(tableView)
             return tableView
@@ -84,7 +100,6 @@ class ChatTableViewController: UIViewController,UISearchBarDelegate, UITableView
         view.addConstraints([
             navBar.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor),
             navBar.widthAnchor.constraint(equalTo: view.widthAnchor)
-            //navBar.heightAnchor.constraint(equalToConstant: 60)
             ])
         
         searchBar.translatesAutoresizingMaskIntoConstraints = false
@@ -97,7 +112,7 @@ class ChatTableViewController: UIViewController,UISearchBarDelegate, UITableView
         let tableView = self.tableView!
         tableView.translatesAutoresizingMaskIntoConstraints = false
         view.addConstraints([
-            tableView.topAnchor.constraint(equalTo: navBar.bottomAnchor),
+            tableView.topAnchor.constraint(equalTo: searchBar.bottomAnchor),
             tableView.widthAnchor.constraint(equalTo: view.widthAnchor),
             tableView.bottomAnchor.constraint(equalTo: view.bottomAnchor)
             ])
@@ -115,6 +130,11 @@ class ChatTableViewController: UIViewController,UISearchBarDelegate, UITableView
         }
     }
     
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return self.items.count
     }
@@ -123,7 +143,12 @@ class ChatTableViewController: UIViewController,UISearchBarDelegate, UITableView
         
         let cell = UITableViewCell(style: UITableViewCell.CellStyle.default,
                                    reuseIdentifier: "aaa\(indexPath.section)-\(indexPath.row)")
+        
         cell.textLabel?.text = self.items[indexPath.row].groupName
+
+        // アクセサリに「DisclosureIndicator」を指定する場合
+        cell.accessoryType = UITableViewCell.AccessoryType.disclosureIndicator
+        
         return cell
     }
     

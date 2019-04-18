@@ -10,4 +10,6 @@ target 'ChatAppPractice' do
    pod 'RxSwift'
    pod 'RxCocoa'
    pod 'MessageKit'
+   pod 'Moya'
+   pod 'Moya/RxSwift'
 end
