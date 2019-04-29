@@ -8,7 +8,7 @@
 
 import Foundation
 import CoreLocation
-import MessageKit
+//import MessageKit
 
 private struct MockLocationItem: LocationItem {
     

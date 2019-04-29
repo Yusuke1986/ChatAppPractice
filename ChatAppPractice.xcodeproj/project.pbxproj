@@ -10,6 +10,8 @@
 		066D0D1403BC4A748E096A84 /* Pods_ChatAppPractice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC02FF5FC2C61C85E34B666D /* Pods_ChatAppPractice.framework */; };
 		E67057E52267C6930067CC3C /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67057E42267C6930067CC3C /* Message.swift */; };
 		E67057EB2267FC410067CC3C /* BackendAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67057EA2267FC410067CC3C /* BackendAPI.swift */; };
+		E6EFF00C2277593500068D13 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E6EFF00B2277593500068D13 /* README.md */; };
+		E6F046A6226A2C5700159F1D /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F046A5226A2C5700159F1D /* NavigationController.swift */; };
 		E6FBF3B422678F4A00031504 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6FBF3B322678F4A00031504 /* AppDelegate.swift */; };
 		E6FBF3BB22678F4B00031504 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6FBF3BA22678F4B00031504 /* Assets.xcassets */; };
 		E6FBF3BE22678F4B00031504 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6FBF3BC22678F4B00031504 /* LaunchScreen.storyboard */; };
@@ -43,6 +45,8 @@
 		BF8A700C0F19DF9FE6C6FE99 /* Pods-ChatAppPractice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatAppPractice.release.xcconfig"; path = "Target Support Files/Pods-ChatAppPractice/Pods-ChatAppPractice.release.xcconfig"; sourceTree = "<group>"; };
 		E67057E42267C6930067CC3C /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		E67057EA2267FC410067CC3C /* BackendAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackendAPI.swift; sourceTree = "<group>"; };
+		E6EFF00B2277593500068D13 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E6F046A5226A2C5700159F1D /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
 		E6FBF3B022678F4A00031504 /* ChatAppPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatAppPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6FBF3B322678F4A00031504 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E6FBF3BA22678F4B00031504 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -100,6 +104,7 @@
 				E6FBF3E32267910A00031504 /* ChatTableViewController.swift */,
 				E6FBF3E52267914900031504 /* ChatMessageViewController.swift */,
 				E6FBF3E122678F9400031504 /* LogInViewController.swift */,
+				E6F046A5226A2C5700159F1D /* NavigationController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -132,6 +137,7 @@
 		E6FBF3A722678F4A00031504 = {
 			isa = PBXGroup;
 			children = (
+				E6EFF00B2277593500068D13 /* README.md */,
 				E6FBF3B222678F4A00031504 /* ChatAppPractice */,
 				E6FBF3C722678F4B00031504 /* ChatAppPracticeTests */,
 				E6FBF3D222678F4B00031504 /* ChatAppPracticeUITests */,
@@ -296,6 +302,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6EFF00C2277593500068D13 /* README.md in Resources */,
 				E6FBF3BE22678F4B00031504 /* LaunchScreen.storyboard in Resources */,
 				E6FBF3BB22678F4B00031504 /* Assets.xcassets in Resources */,
 			);
@@ -386,6 +393,7 @@
 				E67057E52267C6930067CC3C /* Message.swift in Sources */,
 				E6FBF3E42267910A00031504 /* ChatTableViewController.swift in Sources */,
 				E6FBF3E62267914900031504 /* ChatMessageViewController.swift in Sources */,
+				E6F046A6226A2C5700159F1D /* NavigationController.swift in Sources */,
 				E67057EB2267FC410067CC3C /* BackendAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

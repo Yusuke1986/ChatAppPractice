@@ -156,9 +156,9 @@ class ChatTableViewController: UIViewController,UISearchBarDelegate, UITableView
         
         let nextvc = ChatMessageViewController()
         //nextvc.setupController(toDo: toDo, parentController: self)
+        //navigationController?.pushViewController(nextvc, animated: true)
         self.present(nextvc, animated: true, completion: nil)
     }
-    
     
     func emptyMessage(message:String, tableView: UITableView) {
         let rect = CGRect(origin: CGPoint(x: 0,y :0), size: CGSize(width: self.view.bounds.size.width, height: self.view.bounds.size.height))

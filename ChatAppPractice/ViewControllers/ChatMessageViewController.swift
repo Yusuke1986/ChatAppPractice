@@ -12,6 +12,7 @@ import MessageInputBar
 
 class ChatMessageViewController: MessagesViewController {
     
+    
     //var navBar = UINavigationBar()
     var messageList: [MockMessage] = []
     
@@ -23,6 +24,7 @@ class ChatMessageViewController: MessagesViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         
 //        view = UIView()
 //        view.backgroundColor = .white
@@ -38,12 +40,11 @@ class ChatMessageViewController: MessagesViewController {
 //            navBar.widthAnchor.constraint(equalTo: view.widthAnchor),
 //            navBar.heightAnchor.constraint(equalToConstant: 80)
 //            ])
-//
 //        view.addSubview(navBar)
         
         DispatchQueue.main.async {
         
-            //messageListにsampleメッセージ
+            //messageList sample
             self.messageList = [self.createMessage(text: "English"),
                                 self.createMessage(text: "español"),
                                 self.createMessage(text: "日本語")]
@@ -76,9 +77,9 @@ class ChatMessageViewController: MessagesViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
-    
+//
 //    @objc func returnView() {
-//        
+//
 //        self.dismiss(animated: true, completion: nil)
 //    }
 }
